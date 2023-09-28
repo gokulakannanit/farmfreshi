@@ -2,11 +2,11 @@
   "name": "farmfreshi",
   "version": "1.0.0",
   "description": "Farmfreshi app deployment",
-  "main": "/server.js", 
+  "main": "/main.js", 
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node main.js"
   },  
   "author": "",
   "license": "ISC",

@@ -2,17 +2,22 @@
   "name": "farmfreshi",
   "version": "1.0.0",
   "description": "Farmfreshi app deployment",
-  "main": "/server.js",
+  "private": true,  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "main": "/server.js",
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "express": "^4.18.2"
   },
   "engines": {
-    "node": "18.x"
-  }
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
 }

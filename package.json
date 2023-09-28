@@ -1,0 +1,15 @@
+{
+  "name": "farmfreshi",
+  "version": "1.0.0",
+  "description": "Farmfreshi app deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
